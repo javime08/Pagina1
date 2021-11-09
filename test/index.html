@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="overlay" id="overlay">
+        <h3></h3>
+    </div>
+    <div class="hero-bg">
+        <section class="top">
+            <header>
+                <a href="#">yummy.eats</a>
+            </header> 
+
+            <h1><span>The Healty </span> Eating Expierience</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore tempore laboriosam nisi magni laudantium et nam sit officia totam animi.</p>
+
+            <div class="form-container">
+                <form action="">
+                    <div class="formleft">
+                        <label for="city">Ingrese su ciudad</label>
+                        <input type="text" name="city" id="city">
+                        <p>Ejemplo: Comayaguela</p>
+                    </div>
+                    <input type="button" value="Busque comida ahora" id="cta-btn">
+                </form>
+            </div>
+        </section>
+        <section>
+
+        </section>
+    </div>
+    <section class="authentic">
+        <div class="right-columna">
+            <h2>Autentico. Increible</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit accusamus cupiditate totam porro ratione voluptas illo cum fugiat ut facilis ullam fugit et adipisci voluptates, sit autem eveniet, vitae tempora.</p>
+        </div>
+        <img src="..\images\food1.jpg " alt="Picture of food">
+    </section>
+
+    <script>
+        let btn=document.getElementById('cta-btn');
+        let btn=document.getElementById('overlay');
+        
+        btn.addEventListener('click',()=>{
+            overlay.style.display=grid();
+            overlay.classlist.add('animate-overlay');
+        })
+    </script>
+</body>
+</html>
